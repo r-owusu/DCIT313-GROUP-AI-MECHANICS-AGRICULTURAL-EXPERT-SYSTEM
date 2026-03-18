@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DiagnoseForm from './components/DiagnoseForm'; // We'll create this next
-import ResultsDisplay from './components/ResultsDisplay'; // And this
+import DiagnoseForm from './components/DiagnoseForm';
+import ResultsDisplay from './components/ResultsDisplay';
 import './App.css';
 
 function App() {
@@ -38,12 +38,29 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Agricultural Expert System</h1>
-      <DiagnoseForm onDiagnose={handleDiagnosis} loading={loading} />
-      
-      {error && <div className="error" style={{color: 'red', marginTop: '20px'}}>{error}</div>}
-      
-      {result && <ResultsDisplay result={result} />}
+      <div className="app-header">
+        <h1>🌾 Agricultural Expert System</h1>
+        <p>Diagnose crop diseases and get expert treatment recommendations</p>
+      </div>
+
+      <div className="container">
+        <div className="form-card">
+          <DiagnoseForm onDiagnose={handleDiagnosis} loading={loading} />
+        </div>
+
+        <div>
+          {error && <div className="error">{error}</div>}
+          {loading && (
+            <div className="card">
+              <div className="loading">
+                <div className="spinner"></div>
+                <span>Analyzing symptoms...</span>
+              </div>
+            </div>
+          )}
+          {result && <ResultsDisplay result={result} />}
+        </div>
+      </div>
     </div>
   );
 }
