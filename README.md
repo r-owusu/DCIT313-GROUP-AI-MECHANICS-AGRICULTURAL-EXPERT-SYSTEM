@@ -11,14 +11,16 @@ Project manager
 
 Knowledge Engineers
 
-1. 
+1. Ilyas Osman
 
-2. 
+2. ⁠Nana Boateng Yeboah
+
+   
 Programmers
 
-1. 
-2. 
-3.
+1. Revic Osei Owusu
+2. ⁠Dennis Kwaku Dapaah Adomako
+3. Bansah Zuel
 
 Aim of the Project
 To design and develop a rule-based agricultural expert system that assists farmers in diagnosing crop diseases and provides appropriate treatment and farming recommendations.
