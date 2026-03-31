@@ -7,7 +7,7 @@
 6. Yusif Ibrahim -                                           22035728
 
 Project manager
-1. Yusif Ibrahim
+1. Revic Osei Owusu
 
 Knowledge Engineers
 
@@ -18,7 +18,7 @@ Knowledge Engineers
    
 Programmers
 
-1. Revic Osei Owusu
+1. Yusif Ibrahim
 2. ⁠Dennis Kwaku Dapaah Adomako
 3. Bansah Zuel
 
